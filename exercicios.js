@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 // ============================================================
 //  LISTA DE EXERCÍCIOS - JAVASCRIPT
 // ============================================================
@@ -19,8 +21,13 @@
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
+let a = Number(prompt("Digite o 1º número:")), 
+    b = Number(prompt("Digite o 2º número:"));
 
-
+console.log("Soma: " + (a + b));
+console.log("Subtração: " + (a - b));
+console.log("Multiplicação: " + (a * b));
+console.log("Divisão: " + (a / b))
 
 
 // EXERCÍCIO 2 - Conversor de temperatura
